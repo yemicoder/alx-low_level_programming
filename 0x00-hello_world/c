@@ -732,6 +732,6 @@ extern int __overflow (FILE *, int);
 # 7 "0-main.c"
 int main(void)
 {
- printf("The name Adubiaro is going places in Jesus name")
+ printf("Holberton School");
  return (0);
 }

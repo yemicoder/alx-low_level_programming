@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("The name Adubiaro is going places in Jesus name")
+	printf("Holberton School");
 	return (0);
 }
