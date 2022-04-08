@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-/*The function runs to print a set of strings as provided within it*/
+/**
+ * main - "prints with proper grammar, but the outcome is a piece of art,"
+ *
+ * Return: 0
+ */
 
-int main(void)
+int main(void) /* first function */
 
 {
-	/* prints on screen*/
-
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
