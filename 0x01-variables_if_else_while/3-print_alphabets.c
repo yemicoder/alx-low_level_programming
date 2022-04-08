@@ -22,6 +22,7 @@ int main(void)
 	putchar(alphabet);
 	alphabet++;
 	}
+	printf("%c", alphabet);
 	while (alphabet <= 'z')
 	{
 	alphabet = toupper(alphabet);
