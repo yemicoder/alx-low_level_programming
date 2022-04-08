@@ -5,8 +5,9 @@
  * main - entry point
  *
  * n: first operand
- * last_digit: second operand
+ * l: second operand
  *
+ * Return:0
  */
 
 int main(void)
