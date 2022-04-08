@@ -26,7 +26,7 @@ int main(void)
 	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
-	alphabet++
+	alphabet++;
 	}
 	putchar('\n');
 	return (0);
