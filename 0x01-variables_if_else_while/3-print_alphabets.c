@@ -21,13 +21,8 @@ int main(void)
 	{
 	putchar(alphabet);
 	alphabet++;
-	}
-	alphabet = 'a';
-	while (alphabet <= 'z')
-	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
-	alphabet++;
 	}
 	putchar('\n');
 	return (0);
