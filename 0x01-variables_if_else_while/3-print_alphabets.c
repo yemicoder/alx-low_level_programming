@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 /**
  * main - entry point
@@ -22,7 +23,7 @@ int main(void)
 	putchar(alphabet);
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
-	aphabet++;
+	alphabet++;
 	}
 	putchar('\n');
 	return (0);
