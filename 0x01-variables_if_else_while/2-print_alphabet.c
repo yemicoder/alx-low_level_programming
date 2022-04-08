@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
 /**
  * main - entry point
  *
@@ -16,7 +20,7 @@ int main(void)
 	while (alphabet <= 'z')
 	{
 		alphabet++;
-		alphabet = tolower(alphabet);
+		alphabet = toLower(alphabet);
 		putchar(alphabet);
 	}
 	return (0);
