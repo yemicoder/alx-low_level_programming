@@ -4,7 +4,7 @@
  *
  * alphabet: first variable
  *
- * Rerutn:0
+ * Return:0
  *
  */
 
@@ -17,6 +17,7 @@ int main(void)
 	{
 		printf("%c", alphabet);
 		alphabet++;
+		printf("/n");
 	}
 	return (0);
 }
