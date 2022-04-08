@@ -22,11 +22,11 @@ int main(void)
 	putchar(alphabet);
 	alphabet++;
 	}
+	alphabet = 'a';
 	if (alphabet <= 'z')
 	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
-	alphabet++;
 	}
 	putchar('\n');
 	return (0);
