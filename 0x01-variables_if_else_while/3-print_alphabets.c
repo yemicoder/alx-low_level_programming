@@ -23,12 +23,11 @@ int main(void)
 	alphabet++;
 	}
 	alphabet = 'a';
-	while (alphabet <= 'z')
+	if (alphabet <= 'z')
 	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
 	alphabet++;
-	break;
 	}
 	putchar('\n');
 	return (0);
