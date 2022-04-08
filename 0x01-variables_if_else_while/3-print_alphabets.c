@@ -18,12 +18,18 @@ int main(void)
 
 	alphabet = 'a';
 	while (alphabet <= 'z')
+	{
 	putchar(alphabet);
 	alphabet++;
-	alphabet = 'a';
+	break;
+	}
 	while (alphabet <= 'z')
+	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
+	alphabet++;
+	break;
+	}
 	putchar('\n');
 	return (0);
 }
