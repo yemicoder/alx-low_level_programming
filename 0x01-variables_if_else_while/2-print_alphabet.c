@@ -15,9 +15,9 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		printf("%c", alphabet);
 		alphabet++;
+		alphabet = tolower(alphabet);
+		putchar(alphabet);
 	}
-	printf("\n");
 	return (0);
 }
