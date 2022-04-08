@@ -6,7 +6,8 @@
 /**
  * main - entry point
  *
- * alphabet: first operand
+ * lalphabet: first operand
+ * ualphabet: second operand
  *
  * Return:0
  *
@@ -14,18 +15,20 @@
 
 int main(void)
 {
-	char alphabet;
+	char lalphabet;
+	char ualphabet;
 
-	alphabet = 'a';
-	while (alphabet <= 'z')
+	lalphabet = 'a';
+	while (lalphabet <= 'z')
 	{
-	putchar(alphabet);
-	alphabet++;
+	putchar(lalphabet);
+	lalphabet++;
 	}
-	while  (alphabet <= 'z')
+	ualphabet = 'A';
+	while  (ualphabet <= 'Z')
 	{
-	alphabet = toupper(alphabet);
-	putchar(alphabet);
+	putchar(ualphabet);
+	ualphabet++;
 	}
 	putchar('\n');
 	return (0);
