@@ -23,7 +23,7 @@ int main(void)
 	alphabet++;
 	}
 	alphabet = 'a';
-	if (alphabet <= 'z')
+	while  (alphabet <= 'z')
 	{
 	alphabet = toupper(alphabet);
 	putchar(alphabet);
