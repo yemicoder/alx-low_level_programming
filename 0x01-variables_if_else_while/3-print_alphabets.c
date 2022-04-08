@@ -19,11 +19,14 @@ int main(void)
 	alphabet = 'a';
 	while (alphabet <= 'z')
 	{
-	alphabet = tolower(alphabet);
-	putchar(alphabet);
-	alphabet = toupper(alphabet);
 	putchar(alphabet);
 	alphabet++;
+	}
+	while (alphabet <= 'z')
+	{
+	alphabet = toupper(alphabet);
+	putchar(alphabet);
+	alphabet++
 	}
 	putchar('\n');
 	return (0);
