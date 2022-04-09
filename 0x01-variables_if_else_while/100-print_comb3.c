@@ -30,7 +30,6 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	f = 8 + '0';
 	if (x > n && n != 8)
 	{
 	putchar(c);
@@ -44,6 +43,7 @@ int main(void)
 	}
 	while (f <= 9)
 	{
+	f += '0'
 	putchar(f);
 	f++;
 	}
