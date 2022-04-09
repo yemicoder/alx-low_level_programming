@@ -39,7 +39,7 @@ int main(void)
 	}
 	else
 	{
-	putchar('g');
+	putchar(g);
 	}
 	x++;
 	}
