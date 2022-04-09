@@ -28,10 +28,13 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
+	if (b > c)
+	{
 	putchar(c);
 	putchar(b);
 	putchar(',');
 	putchar(' ');
+	}
 	x++;
 	}
 	n++;
