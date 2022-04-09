@@ -20,8 +20,8 @@ int main(void)
 	{
 		c = n + '0';
 		putchar(c);
-		putchar(', ');
-		n++
+		putchar(", ");
+		n++;
 	}
 	putchar('\n');
 	return (0);
