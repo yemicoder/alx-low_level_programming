@@ -19,7 +19,6 @@ int main(void)
 	int x;
 	int c;
 	int b;
-	int g;
 	int f;
 
 	n = 0;
