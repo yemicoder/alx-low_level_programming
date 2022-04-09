@@ -5,6 +5,7 @@
  * main - priints all possible combinations of single-digit numbers
  *
  * n: numbers to print
+ * c: scope variable to manipulate char
  *
  * Return:0
  *
@@ -13,7 +14,7 @@
 int main(void)
 {
 	int n;
-	char c;
+	int c;
 
 	n = 0;
 	while (n <= 9)
