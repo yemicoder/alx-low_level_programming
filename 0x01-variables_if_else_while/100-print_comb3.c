@@ -19,6 +19,7 @@ int main(void)
 	int x;
 	int c;
 	int b;
+	int g;
 
 	n = 0;
 	while (n <= 8)
@@ -28,6 +29,7 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
+	g = 89 + '0';
 	if (x > n && n != 8)
 	{
 	putchar(c);
@@ -37,7 +39,7 @@ int main(void)
 	}
 	else
 	{
-	putchar('89');
+	putchar('g');
 	}
 	x++;
 	}
