@@ -35,6 +35,10 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	}
+	else
+	{
+	putchar('89');
+	}
 	x++;
 	}
 	n++;
