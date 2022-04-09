@@ -8,6 +8,8 @@
  * x: variable
  * c: variable
  *
+ * Return:0
+ *
  */
 
 int main(void)
@@ -27,6 +29,6 @@ int main(void)
 	putchar(' ');
 	n++;
 	}
-
-
+	putchar('\n');
+	return (0);
 }
