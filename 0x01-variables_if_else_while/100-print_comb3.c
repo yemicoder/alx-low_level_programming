@@ -28,17 +28,12 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	if (b > c && c < 9)
+	if (b > c)
 	{
 	putchar(c);
 	putchar(b);
 	putchar(',');
 	putchar(' ');
-	}
-	else
-	{
-	putchar(c);
-	putchar(b);
 	}
 	x++;
 	}
