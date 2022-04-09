@@ -23,10 +23,14 @@ int main(void)
 	{
 	x = n + 1 + '0';
 	c = n + '0';
+	while (x <= 9)
+	{
 	putchar(c);
 	putchar(x);
 	putchar(',');
 	putchar(' ');
+	x++
+	}
 	n++;
 	}
 	putchar('\n');
