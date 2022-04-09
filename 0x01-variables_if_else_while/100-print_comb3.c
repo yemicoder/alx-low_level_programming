@@ -48,5 +48,6 @@ int main(void)
 	putchar(g);
 	f++;
 	}
+	putchar('\n');
 	return (0);
 }
