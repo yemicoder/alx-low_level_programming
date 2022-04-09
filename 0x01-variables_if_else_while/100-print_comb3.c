@@ -32,6 +32,8 @@ int main(void)
 	{
 	putchar(c);
 	putchar(b);
+	putchar(',');
+	putchar(' ');
 	}
 	else
 	{
