@@ -45,7 +45,7 @@ int main(void)
 	while (f <= 9)
 	{
 	g = f + '0';
-	putchar(f);
+	putchar(g);
 	f++;
 	}
 	return (0);
