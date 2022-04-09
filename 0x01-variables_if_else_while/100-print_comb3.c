@@ -21,7 +21,7 @@ int main(void)
 	int b;
 
 	n = 0;
-	while (n <= 8)
+	while (n <= 7)
 	{
 	x = 1;
 	while (x <= 9)
