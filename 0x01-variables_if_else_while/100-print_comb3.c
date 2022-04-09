@@ -20,6 +20,7 @@ int main(void)
 	int c;
 	int b;
 	int f;
+	int g;
 
 	n = 0;
 	f = 8;
@@ -43,7 +44,7 @@ int main(void)
 	}
 	while (f <= 9)
 	{
-	f += '0';
+	g = f + '0';
 	putchar(f);
 	f++;
 	}
