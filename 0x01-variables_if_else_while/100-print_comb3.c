@@ -28,7 +28,7 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	if (b > c && b <  9)
+	if (b > c && c !=  9)
 	{
 	putchar(c);
 	putchar(b);
