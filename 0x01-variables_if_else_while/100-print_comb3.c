@@ -37,13 +37,10 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	}
-	else
-	{
-	putchar(g);
-	}
 	x++;
 	}
 	n++;
 	}
+	putchar(g);
 	return (0);
 }
