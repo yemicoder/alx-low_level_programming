@@ -33,7 +33,7 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	x++;
-	n++
+	n++;
 	}
 	}
 	putchar('\n');
