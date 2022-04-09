@@ -21,9 +21,9 @@ int main(void)
 	int b;
 
 	n = 0;
-	x = 1;
 	while (n <= 9)
 	{
+	x = 1;
 	while (x <= 9)
 	{
 	b = x  + '0';
@@ -34,6 +34,7 @@ int main(void)
 	putchar(' ');
 	x++;
 	}
+	n++;
 	}
 	putchar('\n');
 	return (0);
