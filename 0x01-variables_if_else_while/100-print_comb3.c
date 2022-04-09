@@ -29,7 +29,7 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	g = 89 + '0';
+	g = 8 + '0';
 	if (x > n && n != 8)
 	{
 	putchar(c);
