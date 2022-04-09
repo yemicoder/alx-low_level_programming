@@ -13,12 +13,14 @@
 int main(void)
 {
 	int n;
+	char c;
 
 	n = 0;
 	while (n <= 9)
 	{
-		putchar(n);
-		putchar(", ")
+		c = n + '0';
+		putchar(c);
+		putchar(', ')
 		n++
 	}
 	putchar('\n');
