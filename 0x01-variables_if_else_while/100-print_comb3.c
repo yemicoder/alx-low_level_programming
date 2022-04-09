@@ -32,6 +32,9 @@ int main(void)
 	{
 	putchar(c);
 	putchar(b);
+	}
+	if (c < 9)
+	{
 	putchar(',');
 	putchar(' ');
 	}
