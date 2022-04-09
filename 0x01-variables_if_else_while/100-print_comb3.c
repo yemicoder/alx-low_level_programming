@@ -29,7 +29,7 @@ int main(void)
 	putchar(x);
 	putchar(',');
 	putchar(' ');
-	x++
+	x++;
 	}
 	n++;
 	}
