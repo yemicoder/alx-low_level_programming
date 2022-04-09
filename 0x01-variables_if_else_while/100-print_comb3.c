@@ -26,14 +26,13 @@ int main(void)
 	{
 	while (x <= 9)
 	{
-        b = n + 1 + '0';
+        b = x  + '0';
         c = n + '0';
 	putchar(c);
 	putchar(b);
 	putchar(',');
 	putchar(' ');
 	x++;
-	n++;
 	}
 	n++;
 	}
