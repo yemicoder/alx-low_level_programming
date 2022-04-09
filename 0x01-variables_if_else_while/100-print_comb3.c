@@ -28,15 +28,15 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	if (b > c)
+	if (b > c && c < 9)
 	{
 	putchar(c);
 	putchar(b);
 	}
-	if (c < 9)
+	else
 	{
-	putchar(',');
-	putchar(' ');
+	putchar(c);
+	putchar(b);
 	}
 	x++;
 	}
