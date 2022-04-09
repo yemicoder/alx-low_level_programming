@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - this program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+ * main - this program that prints all single digit
  *
  * n: integer 0-10
  *
@@ -15,7 +15,7 @@
 int main(void)
 {
 	int n;
-	char c;
+	int c;
 
 	n = 0;
 	while (n <= 9)
