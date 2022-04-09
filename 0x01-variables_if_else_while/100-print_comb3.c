@@ -20,8 +20,10 @@ int main(void)
 	int c;
 	int b;
 	int g;
+	int f;
 
 	n = 0;
+	f = 8;
 	while (n <= 8)
 	{
 	x = 1;
@@ -29,7 +31,7 @@ int main(void)
 	{
 	b = x  + '0';
 	c = n + '0';
-	g = 8 + '0';
+	f = 8 + '0';
 	if (x > n && n != 8)
 	{
 	putchar(c);
@@ -41,6 +43,10 @@ int main(void)
 	}
 	n++;
 	}
-	putchar(g);
+	while (f <= 9)
+	{
+	putchar(f);
+	f++;
+	}
 	return (0);
 }
