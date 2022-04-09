@@ -43,7 +43,7 @@ int main(void)
 	}
 	while (f <= 9)
 	{
-	f += '0'
+	f += '0';
 	putchar(f);
 	f++;
 	}
