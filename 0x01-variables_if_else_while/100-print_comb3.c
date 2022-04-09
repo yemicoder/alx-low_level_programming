@@ -26,8 +26,8 @@ int main(void)
 	{
 	while (x <= 9)
 	{
-        b = x  + '0';
-        c = n + '0';
+	b = x  + '0';
+	c = n + '0';
 	putchar(c);
 	putchar(b);
 	putchar(',');
