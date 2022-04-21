@@ -20,11 +20,11 @@ void print_numbers(void)
 
         while (i <= 9)
         {
-	c = i;
+	c = i + '0';
         putchar(c);
 	i++;
-	putchar('\n');
         }
+	putchar('\n');
 }
 
 int main(void)
