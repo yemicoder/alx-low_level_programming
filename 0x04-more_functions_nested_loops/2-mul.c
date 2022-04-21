@@ -4,15 +4,14 @@
 
 /**
  * mul - function to multiply to int variables
- *
- * @c: product variable
+ * @a: variable a
+ * @b: variable b
+ * @product: multiplication variable
  * Return:0
  */
 
 int mul(int a, int b)
 {
-	int c;
-
-	c = a * b;
-	return (c);
+	product = a * b;
+	return (product);
 }
