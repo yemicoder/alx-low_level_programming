@@ -6,7 +6,7 @@
  * mul - function to multiply to int variables
  * @a: variable a
  * @b: variable b
- * @d: multiplication variable
+ *
  * Return:0
  */
 
