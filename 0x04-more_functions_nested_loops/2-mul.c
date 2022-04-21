@@ -6,12 +6,12 @@
  * mul - function to multiply to int variables
  * @a: variable a
  * @b: variable b
- * @product: multiplication variable
+ * @d: multiplication variable
  * Return:0
  */
 
 int mul(int a, int b)
 {
-	product = a * b;
-	return (product);
+	d = a * b;
+	return (d);
 }
