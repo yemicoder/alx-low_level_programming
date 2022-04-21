@@ -16,12 +16,10 @@ int mul(int a, int b)
 void print_numbers(void)
 {
 	int i = 0;
-	char c;
 
         while (i <= 9)
         {
-	c = i + '0';
-        putchar(c);
+        putchar(i + '0');
 	i++;
         }
 	putchar('\n');
