@@ -5,8 +5,6 @@
 /**
  * mul - function to multiply to int variables
  *
- * @a: variable a
- * @b: variable b
  * @c: product variable
  * Return:0
  */
