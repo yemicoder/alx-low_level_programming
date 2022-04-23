@@ -92,12 +92,12 @@ void print_square(int size)
                         putchar('#');
                 }
                         putchar('\n');
+	}
                         if (size <= 0)
                         {
                         putchar('\n');
                         }
         }
-}
 
 int main(void)
 {
