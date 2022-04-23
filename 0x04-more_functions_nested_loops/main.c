@@ -24,11 +24,30 @@ void print_numbers(void)
         }
 	putchar('\n');
 }
+void more_numbers(void)
+{
+        int i;
+        int x;
+	
+	x = 0;
+	i = 0;
+        while (i <= 9)
+        {
+        	while (x <= 14)
+        {
+		putchar(x + '0');
+		x++;
+        }
+		i++;
+        }
+        putchar('\n');
+}
 
 int main(void)
 {
 	printf("%d\n", mul(98, 1024));
 	printf("%d\n", mul(-402, 4096));
 	print_numbers();
+	more_numbers();
 	return (0);
 }
