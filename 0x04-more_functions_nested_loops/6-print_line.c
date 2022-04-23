@@ -4,21 +4,18 @@
  * print_line - print a straight line on terminal
  *
  * @x: variable x
- * @n: variable y
+ * @n: variable n
  *
  * Return : 0 always
  */
 
 void print_line(int n)
 {
-	int x = 0;
+	int x;
 
-	for (n = 1; x >= n; n++)
+	for (x = 1; x <= n; x++)
 	{
-		if (x != 0)
-		{
 		_putchar('_');
-		}
-		_putchar('\n');
 	}
+		_putchar('\n');
 }

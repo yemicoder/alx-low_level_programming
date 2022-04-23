@@ -43,11 +43,22 @@ void more_numbers(void)
         }
 }
 
+void print_line(int n)
+{
+        int x;
+
+        for (x = 1; x <= n; x++)
+        {
+                putchar('_');
+                }
+                putchar('\n');
+}
 int main(void)
 {
 	printf("%d\n", mul(98, 1024));
 	printf("%d\n", mul(-402, 4096));
 	print_numbers();
 	more_numbers();
+	print_line(20);
 	return (0);
 }
