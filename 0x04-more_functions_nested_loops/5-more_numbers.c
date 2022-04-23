@@ -12,8 +12,7 @@
 
 void more_numbers(void)
 {
-	int i;
-	int x;
+	int i, x;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -21,7 +20,7 @@ void more_numbers(void)
 		{
 		if (x > 9)
 		{
-		putchar(x / 10 + '0');
+		_putchar(x / 10 + '0');
 		}
 		_putchar(x % 10 + '0');
 	}
