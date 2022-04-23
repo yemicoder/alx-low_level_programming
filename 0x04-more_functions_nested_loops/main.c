@@ -97,7 +97,7 @@ void print_square(int size)
                         {
                         putchar('\n');
                         }
-        }
+}
 
 int main(void)
 {
