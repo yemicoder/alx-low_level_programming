@@ -5,6 +5,8 @@
  *
  * @x: variable
  * @y: variable
+ * @size: variable
+ *
  */
 
 void print_square(int size)
