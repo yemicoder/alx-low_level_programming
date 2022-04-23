@@ -79,6 +79,26 @@ void print_diagonal(int n)
                         putchar('\n');
                 }
 }
+
+void print_square(int size)
+{
+        int x;
+        int y;
+
+        for (x = 1; x <= size; x++)
+        {
+                for (y = 1; y <= size; y++)
+                {
+                        putchar('#');
+                }
+                        putchar('\n');
+                        if (size <= 0)
+                        {
+                        putchar('\n');
+                        }
+        }
+}
+
 int main(void)
 {
 	printf("%d\n", mul(98, 1024));
@@ -87,5 +107,6 @@ int main(void)
 	more_numbers();
 	print_line(20);
 	print_diagonal(20);
+	print_square(5);
 	return (0);
 }
