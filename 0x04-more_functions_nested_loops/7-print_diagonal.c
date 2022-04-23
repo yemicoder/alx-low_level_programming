@@ -17,7 +17,7 @@ void print_diagonal(int n)
 	{
 		for (y = 1; y <= n; y++)
 		{
-			if (y < x || y > x)
+			if (x > y)
 			{
 			_putchar(' ');
 			}
@@ -25,11 +25,11 @@ void print_diagonal(int n)
 			{
 				_putchar('\\');
 			}
+		}
 		_putchar('\n');
 		}
 		if (n <= 0)
 		{
 			_putchar('\n');
 		}
-	}
 }

@@ -53,6 +53,32 @@ void print_line(int n)
                 }
                 putchar('\n');
 }
+
+void print_diagonal(int n)
+{
+        int x;
+	int y;
+
+        for (x = 1; x <= n; x++)
+        {
+                for (y = 1; y <= n; y++)
+                {
+                        if (x > y)
+                        {
+                        putchar(' ');
+                        }
+                        if (y == x)
+                        {
+                                putchar('\\');
+                        }
+                }
+		putchar('\n');
+	}
+                if (n <= 0)
+                {
+                        putchar('\n');
+                }
+}
 int main(void)
 {
 	printf("%d\n", mul(98, 1024));
@@ -60,5 +86,6 @@ int main(void)
 	print_numbers();
 	more_numbers();
 	print_line(20);
+	print_diagonal(20);
 	return (0);
 }
