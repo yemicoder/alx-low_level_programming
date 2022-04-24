@@ -99,6 +99,29 @@ void print_square(int size)
                         }
 }
 
+void print_triangle(int size)
+{
+        int i;
+        int j;
+
+        for  (i = 1; i <= size; i++)
+        {
+                for (j = i; j < size; j++)
+                {
+                        putchar(' ');
+                }
+                for (j = 1; j <= i; j++)
+                {
+                        putchar('#');
+                }
+                if (size <= 0)
+                {
+                        putchar('\n');
+                }
+                putchar('\n');
+        }
+}
+
 int main(void)
 {
 	printf("%d\n", mul(98, 1024));
@@ -108,5 +131,6 @@ int main(void)
 	print_line(20);
 	print_diagonal(20);
 	print_square(5);
+	print_triangle(10);
 	return (0);
 }
