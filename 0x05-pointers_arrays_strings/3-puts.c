@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * _puts - function to print string
+ *
+ * @str : variable str
+ *
+ */
+
 void _puts(char *str)
 {
 
