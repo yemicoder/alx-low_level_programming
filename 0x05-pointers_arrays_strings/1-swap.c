@@ -7,11 +7,16 @@
  *
  * @a : variable a
  * @b : variable b
+ * @temp: variable to hold swap
  *
  */
 
 void swap_int(int *a, int *b)
 {
+	int temp;
+
+	temp = *a;
 	*a = *b;
+	*b = temp;
 }
 
