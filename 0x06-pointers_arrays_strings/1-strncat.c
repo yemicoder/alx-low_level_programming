@@ -5,7 +5,6 @@
  * @dest: destination
  * @src: source
  * @n: amount of bytes used
- * 
  * Return: the pointer to destination
  *
  */
@@ -13,7 +12,6 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
-	
 	i = 0;
 	j = 0;
 
@@ -30,5 +28,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	return(dest);
+	return (dest);
 }
